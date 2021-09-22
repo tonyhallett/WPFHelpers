@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp3.1;net461;net5.0-windows7.0</TargetFrameworks>
+    <UseWPF>true</UseWPF>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Tony Hallett</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageId>WPF.Helpers</PackageId>
+  </PropertyGroup>
+</Project>

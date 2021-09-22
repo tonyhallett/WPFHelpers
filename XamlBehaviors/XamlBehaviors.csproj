@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp3.1;net461;net5.0-windows7.0</TargetFrameworks>
+    <RootNamespace>WPFHelpers.XamlBehaviors</RootNamespace>
+    <AssemblyName>WPFHelpers.XamlBehaviors</AssemblyName>
+    <PackageId>WPF.Helpers.XamlBehaviors</PackageId>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Tony Hallett</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.31" />
+  </ItemGroup>
+
+</Project>
